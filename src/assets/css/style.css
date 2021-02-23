@@ -1,0 +1,128 @@
+html,
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat-Medium";
+}
+
+.btn-theme-rounded {
+  background: transparent linear-gradient(90deg, #9f62c9 0%, #663399 100%) 0% 0%
+    no-repeat padding-box;
+  color: #fff;
+  box-shadow: 0px 0px 20px #00000033;
+  border-radius: 24px;
+  opacity: 1;
+  transition: all 1s;
+  font-size: 12px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  margin: 0px 5px;
+}
+.btn-theme-rounded:hover {
+  background: transparent;
+  border: 2px solid #663399;
+  color: #663399;
+}
+
+.header-menu {
+  color: #222222;
+  text-decoration: none;
+}
+
+.logo-img{
+    max-width: 80px;
+}
+
+.header-title{
+    color: #222222;
+}
+
+.header-badge{
+    background: #000000;
+    border-radius: 13px;
+    height: 5px;
+    width: 200px;
+    opacity: 0.7;
+}
+
+.collect-img{
+    max-width: 400px;
+}
+
+.calculator-img{
+    max-width: 500px;
+}
+
+.main-header{
+    background-image: url(../images/blob-small.svg), url(../images/accounting_dots.svg), url(../images/circle.svg), url(../images/accounting_dots.svg);
+    background-position: left top, bottom left, right top, right bottom;
+    background-repeat: no-repeat;
+    background-size: 27%, 23%, 55%, 23%;
+    background-position-y: 170px, 545px, -188px, 600px;
+    background-position-x: -138px, 255px, 600px, 1000px;
+}
+
+.navbar-nav{
+    margin-right: 120px;
+}
+.first-card,.second-card,.third-card,.fourth-card,.fifth-card{
+    background-repeat: no-repeat;
+    padding: 30px 60px;
+    margin: 0px;
+    background-size: cover !important;
+}
+.first-card {
+    background: url(../images/Rectangle_Copy_23.svg);
+}
+.max-w-65{
+    max-width: 55px;
+}
+.fs10{
+    font-size: 10px;
+}
+.fs12{
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-info{
+    color: #999999;
+    font-size: 10px;
+}
+.second-card{
+    background: url(../images/Rectangle\ Copy\ 19.svg);
+}
+.third-card{
+    background: url(../images/Rectangle\ Copy\ 17.svg);
+}
+.fourth-card{
+    background: url(../images/Rectangle\ 2.svg);
+}
+.fifth-card{
+    background: url(../images/Rectangle\ Copy\ 25.svg);
+}
+section{
+    background: url(../images/sol_wave_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn-theme-rounded.account-btn{
+    width: 160px;
+}
+.content-badge{
+    background: #707070;
+    border-radius: 13px;
+    height: 5px;
+    width: 100px;
+}
+.content-info{
+    color: #999999;
+    font-size: 12px;
+}
+.w-70{
+    width: 70%;
+}
